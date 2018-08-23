@@ -1,0 +1,52 @@
+@charset 'utf-8';
+
+body{
+  background: rgba(75, 0, 130, 0.8);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
+  font: 200 22px 'Do Hyeon';
+  word-spacing: 3px;
+}
+
+.board_message{
+  position: relative;
+  width: calc(100% - 250px); 
+  height: 10vh;
+  left: 250px;
+  padding: 30px 0; 
+  background: rgba(255, 105, 180, 0.8);
+  color: #fff;
+  margin: 0; 
+  text-align: center;
+  font-size: 50px;
+}
+
+#container{
+  position: relative;
+  display: inline-block;
+  width: 70vw; 
+  height: 100%;
+  top: 40px;
+  left: 250px;
+  margin: 0 6vw;
+  z-index: 2;
+  background: rgba(105, 165, 245, 0.9);
+  border: 3px solid black;
+ }
+
+ table{
+  text-align: center;
+}
+
+#make_code_add{
+  width: 20vw;
+  height: 5vh;
+  margin: 1vw 25vw;
+  background: rgba(255, 125, 0, 0.95);
+  color: #fff;
+  font: 400 18px 'Do Hyeon';
+  border: none;
+  text-decoration: none;
+}

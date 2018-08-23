@@ -1,0 +1,73 @@
+@charset 'utf-8';
+
+body{
+  display: block;
+  background-image: url(/images/anthem-hero-2018.jpg);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#container{
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 250px); 
+  height: 100%;
+  left: 250px;
+  z-index: 2;
+}
+
+.odd{
+  background-color:rgba(0, 0, 0, 0.7);
+  position: relative;
+  display: inline-block;
+  width: 81vw; 
+  height: 80vh;
+  z-index: 2;
+  text-align: center;
+}
+
+.odd iframe{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 20%;
+}
+
+.even{
+  background-color: rgba(150, 130, 200, 0.7);
+  position: relative;
+  display: inline-block;
+  width: 81vw; 
+  height: 80vh;
+  z-index: 2;
+  text-align: center;
+}
+
+.even iframe{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 20%;
+}
+
+.tr_desc{
+  width: 39vw;
+  height: 16vh;
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 70%;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: East Sea Dokdo;
+  z-index: 5;
+  word-spacing: 3px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+

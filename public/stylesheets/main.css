@@ -1,0 +1,50 @@
+@charset 'utf-8';
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/images/colorful.jpg);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: Permanent Marker;
+}
+
+#container {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: calc(100% - 202px); 
+  height: 78vh;
+  left: 250px;
+  background-image: url(/images/Anthem.jpg)
+}
+#anthem_detail{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: calc(100% - 202px); 
+  height: 40vh;
+  top: 595px;
+  left: 250px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+#anthem_pre{
+  display: block;
+  margin: 25px 10vh 0 10vh ;   
+  width: 150vh;
+  height: 10vh;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+  

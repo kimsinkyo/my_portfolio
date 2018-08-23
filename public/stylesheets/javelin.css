@@ -1,0 +1,76 @@
+@charset 'utf-8';
+
+body{
+  background :linear-gradient(150deg, #3e0694 15%, #46473E 50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#container{
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 250px); 
+  height: 100%;
+  left: 250px;
+  z-index: 2;
+}
+
+#javelin_intro{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(250, 40, 30, 0.5);
+  width: 81vw;
+  height: 100vh; 
+  z-index: 3;
+}
+
+.javelin_desc{
+  margin: 3vh 5vw;
+  width: 70vw;
+  font: 400 20px 'Do Hyeon';
+  color: rgb(220, 215, 115);
+  word-spacing: 3px;
+  line-height: 40px;
+}
+
+#javelin_ranger{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 81vw;
+  height: 210vh; 
+  z-index: 3;
+  text-align: center;
+}
+
+#javelin_colossus{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(202, 25, 25, 0.5);
+  width: 81vw;
+  height: 230vh; 
+  z-index: 3;
+  text-align: center;
+}
+
+#javelin_intercepter{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(11, 185, 84, 0.5);
+  width: 81vw;
+  height: 230vh; 
+  z-index: 3;
+  text-align: center;
+}
+
+#javelin_storm{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(31, 31, 31, 0.5);
+  width: 81vw;
+  height: 230vh; 
+  z-index: 3;
+  text-align: center;
+}
+

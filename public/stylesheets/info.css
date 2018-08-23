@@ -1,0 +1,77 @@
+@charset 'utf-8';
+
+body{
+  background-image: url(/images/anthem-hero-2018.jpg);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
+}
+
+li{
+  list-style-type: lower-greek;
+  font-weight: 400;
+}
+
+#container{
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 250px); 
+  height: 100%;
+  left: 250px;
+  z-index: 2;
+}
+
+#container h2{
+  padding-top: 20px; 
+  text-align: center;
+}
+
+.info_desc{
+  margin: 3vh 5vw;
+  width: 70vw;
+  font: 200 22px 'Do Hyeon';
+  word-spacing: 3px;
+  line-height: 40px;
+}
+
+#char_relation{
+  position: relative;
+  display: inline-block;
+  background-color: skyblue;
+  color: chocolate;
+  width: 82vw;
+  height: 100vh; 
+  margin-top: 20px;
+  
+}
+
+#contents{
+  position: relative;
+  display: inline-block;
+  background-color: orange;
+  color: #000;
+  width: 82vw;
+  height: 100vh; 
+ 
+}
+
+#hardware_relation{
+  position: relative;
+  display: inline-block;
+  background-color: orchid;
+  color: palegreen;
+  width: 82vw;
+  height: 100vh; 
+ 
+}
+
+#payment_relation{
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  color: snow;
+  width: 82vw;
+  height: 100vh; 
+ 
+}

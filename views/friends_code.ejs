@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="/stylesheets/friends_code.css">
+  <link rel="stylesheet" href="/stylesheets/cube.css">
+  <link rel="stylesheet" href="/stylesheets/nav.css">
+  <title>앤썸 펜페이지</title>
+</head>
+<body>
+  <div class="board_message">
+    친구 코드 게시판
+  </div>
+  <div id="container">
+    <table id="example" class="display dataTable no-footer" style="width:100%" role="grid" aria-describedby="example_info">
+      <thead>
+          <tr>
+              <th>계정 아이디</th>
+              <th>플랫폼</th>
+              <th>주 시간대</th>
+              <th>지역</th>
+              <th>나이</th>
+              <th>한 줄 코멘트</th>
+          </tr>
+      </thead>
+      <tbody>
+        <%
+            for(var i = 0; i < rows.length; i++) {
+        %>
+          <tr>
+          <td><a type="button" style="text-decoration:none; color:black" href="/code_read/<%= rows[i].friends_ID %>"><%= rows[i].ID %></a></td>
+          <td><%= rows[i].flatform %></td>
+          <td><%= rows[i].Main_time %></td>
+          <td><%= rows[i].location %></td>
+          <td><%= rows[i].age %></td>
+          <td><%= rows[i].comment %></td>
+          </tr>
+          <%
+          }
+          %>
+          </tbody>
+    </table>
+    <input type="button" value="코드등록" id="make_code_add" onclick="window.location.href='/code_add'"></div>
+  <div class="cube_container">
+      <div class="cube">
+        <div class="cube_face" id="home_cube">
+            HOME
+          </div>
+        <div class="cube_face" id="anthem_cube">
+            ANTHEM™?
+          </div>
+        <div class="cube_face" id="friends_cube">
+           Friends Code
+          </div>
+        <div class="cube_face" id="javelin_cube">
+          Javelin
+          </div>
+        <div class="cube_face" id="info_cube">
+          Game Infomation
+          </div>
+        <div class="cube_face" id="trailer_cube">
+            Trailer
+          </div>
+        </div>
+    </div>
+    <audio src="/se/misc_menu_4.wav" id="click_sfx"></audio>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script src="/javascripts/friends_code.js"></script>
+  <script src="/javascripts/cube.js"></script>
+  <script src="/javascripts/scroll.js"></script>
+</body>
+</html>
