@@ -2,11 +2,12 @@
 
 body {
   background-image: url(/images/anthem-hero-2018.jpg); 
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   z-index: 10;
   margin: 0;
   position: relative;
+  font-size: 100%;
 }
 
 #container {
@@ -14,27 +15,31 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 1;
- background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .intro_logo{
   position: absolute;
   display: inline-block;
-  top: 50px;
+  top: 5vh;
   margin: 0 15vw;
+  width: 70vw;
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro_logo span{
-  margin: 0 15px;
+  margin: 0 1vw;
 }
 
 .enter_homepage{
   position: absolute;
   display: block;
-  top: 260px;
-  margin: 0 38vw;
+  top: 16vh;
+  margin: 18vh 39vw;
   width: 22vw;
-  height: 12vh;
+  height: 70px;
   background-color: rgba(255,255,255,0.9);
   color: #000;
   border-radius: 2.5em;
@@ -49,19 +54,22 @@ body {
 }
 
 .welcome_text{
-  padding-top: 20px; 
-  font-size: 50px;
+  padding-top: 2.5vh; 
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Do Hyeon', sans-serif;
   text-align: center;
   letter-spacing: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 /*네온사인 효과*/
 p {
   text-align: center;
-  font-size: 45px;
-  margin: 20px 0 20px 0;
+  font-size: 1.5rem;
+  margin: 2vw 0 2vw 0;
+  right: 0;
 }
 
 a {
@@ -74,7 +82,7 @@ a {
 p:nth-child(1) a {
   color: white;
   font-family: Monoton;
-  font-size: 80px;
+  font-size: 3.5rem;
   font-weight: 500;
   -webkit-animation: neon 1.5s ease-in-out infinite alternate;
   -moz-animation: neon 1.5s ease-in-out infinite alternate;
@@ -112,20 +120,20 @@ p:nth-child(1) a {
 
 .section--container{
   position: absolute;
-  top: 500px;  
-  margin: 0 43vw; 
-  height: 100px;
-  width: 200px;
+  top: 50vh;  
+  margin: 12vh 40vw; 
+  height: 15vh;
+  width: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
   }
   
   .sns_container{
-   display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 120px 100px 100px;
-    grid-gap: 3px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 120px 100px 100px;
+  grid-gap: 2px;
   }
   
   .main-title{
@@ -139,7 +147,7 @@ p:nth-child(1) a {
     background ease-in-out .2s;
     font-size: 30px;
     font-family: 'Do Hyeon';
-    padding: 15px;
+    padding: 2vh 0;
   }
   
   .main-title:hover{
@@ -157,7 +165,7 @@ p:nth-child(1) a {
     transition: 
     background ease-in-out .2s,
     box-shadow ease-in-out .2s;
-    height: 75px;
+    height: 8vh;
   }
   
   .box a:link, .box a:visited {

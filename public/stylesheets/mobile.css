@@ -1,0 +1,5 @@
+@charset 'utf-8';
+
+@media (max-width:411px){html{font-size:10px;}}
+@media (min-width:412px) and (max-width:786px){html{font-size:15px;}}
+@media (min-width:786px){html{font-size:20px;}}

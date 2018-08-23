@@ -2,14 +2,14 @@
   position: fixed;
   top: 0px;
   left: 0;  
-  width: 250px;
-  height: 100%;
+  width: 15vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background : #DfDfDf; 
+  background : royalblue; 
   border-radius: 5px;
   transition: all ease 0.5s;
   font-family: 'Permanent Marker', sans-serif;
@@ -25,9 +25,9 @@
   }
   
   .cube_face {
-    width: 250px;
-    height: 75px;
-    margin: 50px 0;
+    width: 15vw;
+    height: 8vh;
+    margin: 4vw 0;
     text-transform: uppercase;
     color: white;
     border-radius: 5px;
@@ -52,7 +52,7 @@
   }
   
   #anthem_cube, #javelin_cube, #trailer_cube {
-    background: hotpink;
+    background: darkorange;
     padding: 0px 5px;
     display: flex;
     justify-content: center;

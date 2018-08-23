@@ -10,7 +10,7 @@ $(document).ready(function(){
     sfx1.play();
     // 1.5초 후에 main.html로 이동한다
     setTimeout(function(){
-      window.location.href="http://localhost:3000/main/"
+      window.location.href="/main"
     }, 1500);
   });
   // 인스타그램 아이콘을 클릭했을 때
