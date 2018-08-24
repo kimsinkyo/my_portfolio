@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="/stylesheets/code_read.css">
+  <link rel="stylesheet" href="/stylesheets/mobile.css">
   <title>친구 코드</title>
   <script>
       function password_check(){
@@ -24,7 +25,7 @@
 </head>
 <body>
     <div id="container">
-      <div id=read_style>
+      <div id=form_style>
         <input type="button" value="뒤로가기" class="backward_button" onclick="window.location.href='/friends_code'">
         <form method="POST" action="/code_delete" onsubmit="return password_check()">
     <table style="border: 3px solid black; width:100%"  id="example" class="display dataTable no-footer" role="grid" aria-describedby="example_info">

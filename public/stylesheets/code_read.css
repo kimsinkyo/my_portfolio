@@ -6,14 +6,14 @@ body{
   height: 100%;
   margin: 0;
   z-index: 1;
-  font: 300 20px 'Do Hyeon';
+  font: 300 1rem 'Do Hyeon';
   word-spacing: 3px;
 }
 
 #container{
   background: rgba(255, 255, 255, 0.7);
-  width: 100vw; 
-  height: 100vh;
+  width: 100%; 
+  height: 100%;
   margin: 0;
   padding: 0;
   z-index: 2;
@@ -21,27 +21,26 @@ body{
 
 .backward_button{
   float: right;
-  width: 10vw;
+  width: 15vw;
   height: 5vh;
   background: black;
   color: #fff;
-  font: 400 18px 'Do Hyeon';
+  font: 400 1rem 'Do Hyeon';
   border: none;
   text-decoration: none;
 }
 
-#read_style{
+#form_style{
   position: absolute;
   background: lightskyblue;
-  top: 100px;
-  bottom: 100px;
-  left: 230px;
-  right: 230px;
-  width: 70vw;
-  height: 55vh;
+  top: 10vh;
+  bottom: 10vh;
+  left: 15vw;
+  right: 15vw;
   padding: 5vh 0;
   z-index: 3;
   border-radius: 30px;
+  height: 50vh;
 }
 
 .code_button{
@@ -51,7 +50,7 @@ body{
   height: 5vh;
   background: hotpink;
   color: #fff;
-  font: 400 18px 'Do Hyeon';
+  font: 400 1rem 'Do Hyeon';
   border: none;
   text-decoration: none;
 }
@@ -59,4 +58,8 @@ body{
 #code_passwordInput{
   width: 20vw;
   height: 3vh;
+}
+
+td{
+  height: 4vh;
 }

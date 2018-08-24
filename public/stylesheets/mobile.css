@@ -1,5 +1,32 @@
 @charset 'utf-8';
 
-@media (max-width:411px){html{font-size:10px;}}
-@media (min-width:412px) and (max-width:786px){html{font-size:15px;}}
-@media (min-width:786px){html{font-size:20px;}}
+@media (max-width:365px){
+  html{font-size:8px;}
+  body{font-size:8px;}
+  img{height: 150px;}
+  iframe{width: 200px; height: 210px;}
+  #container{width: 100vw; height: 100vh;}
+  #form_style{width: 70vw; height: 50vh;}
+  #example{width: 10vw; height: 65vh; font-size: 4px;}
+  .container{width: 75vw; height: 120vh;}
+}
+@media (min-width:366px) and (max-width:786px){
+  html{font-size:13px;}
+  body{font-size:13px;}
+  img{height: 300px;}
+  iframe{width: 350px; height: 250px;}
+  #container{width: 100vw; height: 100vh;}
+  #form_style{width: 70vw; height: 50vh;}
+  #example{width: 45vw; height: 65vh; font-size: 12px}
+  .container{width: 75vw; height: 120vh;}
+}
+@media (min-width:786px){
+  html{font-size:20px;}
+  body{font-size:20px;}
+  img{height: 600px;}
+  iframe{width: 510px; height: 315px;}
+  #container{width: 100vw; height: 100vh;}
+  #form_style{width: 70vw; height: 50vh;}
+  #example{width: 75vw; height: 65vh; font-size: 20px}
+  .container{width: 75vw; height: 120vh;}
+}

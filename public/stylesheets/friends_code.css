@@ -6,31 +6,31 @@ body{
   height: 100%;
   margin: 0;
   z-index: 1;
-  font: 200 22px 'Do Hyeon';
+  font: 200 2rem 'Do Hyeon';
   word-spacing: 3px;
 }
 
 .board_message{
   position: relative;
-  width: calc(100vw - 15vw); 
+  width: 85vw; 
   height: 10vh;
   left: 15vw;
-  padding: 30px 0; 
+  padding: 3vh 0; 
   background: rgba(255, 105, 180, 0.8);
   color: #fff;
   margin: 0; 
   text-align: center;
-  font-size: 50px;
+  font-size: 2rem;
 }
 
-#container{
+.container{
   position: relative;
   display: inline-block;
-  width: 70vw; 
-  height: 100%;
-  top: 40px;
-  left: 250px;
-  margin: 0 6vw;
+  width: 75vw; 
+  height: 120vh;
+  top: 5vh;
+  left: 15vw;
+  margin: 0 4vw;
   z-index: 2;
   background: rgba(105, 165, 245, 0.9);
   border: 3px solid black;
@@ -43,10 +43,11 @@ body{
 #make_code_add{
   width: 20vw;
   height: 5vh;
-  margin: 1vw 25vw;
+  margin: 1vh 25vw;
   background: rgba(255, 125, 0, 0.95);
   color: #fff;
-  font: 400 18px 'Do Hyeon';
+  font: 400 1.3rem 'Do Hyeon';
   border: none;
   text-decoration: none;
+  text-align: center;
 }

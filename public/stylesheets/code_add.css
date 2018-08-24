@@ -6,12 +6,12 @@ body{
   height: 100%;
   margin: 0;
   z-index: 1;
-  font: 300 20px 'Do Hyeon';
+  font: 300 1rem 'Do Hyeon';
   word-spacing: 3px;
 }
 
 h2{
-  margin-top: 0; 
+  margin: 0 0 3vh 5vw; 
 }
 
 #container{
@@ -21,15 +21,22 @@ h2{
   margin: 0;
   padding: 0;
   z-index: 2;
+ 
+}
+#example{
+  top: 10vh;
+  bottom: 10vh;
+  left: 15vw;
+  right: 15vw;
 }
 
 .backward_button{
   float: right;
-  width: 10vw;
+  width: 15vw;
   height: 5vh;
   background: black;
   color: #fff;
-  font: 400 18px 'Do Hyeon';
+  font: 400 1rem 'Do Hyeon';
   border: none;
   text-decoration: none;
 }
@@ -37,13 +44,10 @@ h2{
 #form_style{
   position: absolute;
   background: lightskyblue;
-  top: 100px;
-  bottom: 100px;
-  left: 230px;
-  right: 230px;
   width: 70vw;
-  height: 55vh;
-  padding: 5vh 0;
+  height: 50vh;
+  padding: 15vh 0;
+  margin: 10vh 17vw;
   z-index: 3;
   border-radius: 30px;
 }
@@ -56,13 +60,15 @@ h2{
 }
 .form-group label{
   position: absolute;
-  width: 8vw;
-  margin-left: 5px;
+  width: 18vw;
+  margin-left: 5vw;
+  margin-top: 2.5vh;
 }
 
 .form-group input{
-  margin-left: 8vw;
-  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 2vh;
+  width: 40vw;
   height: 3vh;
   vertical-align: baseline;
 }
@@ -77,10 +83,10 @@ h2{
   position: relative;
   width: 20vw;
   height: 5vh;
-  margin: 45px 25vw 0 25vw;
+  margin: 9vh 25vw 0 25vw;
   background: hotpink;
   color: #fff;
-  font: 400 18px 'Do Hyeon';
+  font: 400 1rem 'Do Hyeon';
   border: none;
   text-decoration: none;
 }
