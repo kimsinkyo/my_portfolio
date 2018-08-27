@@ -30,6 +30,8 @@ body{
 .odd iframe{
   position: absolute;
   margin: auto;
+  width: 50%;
+  height: 50%;
   left: 0;
   right: 0;
   top: 0;
@@ -49,6 +51,8 @@ body{
 .even iframe{
   position: absolute;
   margin: auto;
+  width: 50%;
+  height: 50%;
   left: 0;
   right: 0;
   top: 0;
@@ -63,7 +67,7 @@ body{
   margin: auto;
   top: 55vh;
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   font-family: East Sea Dokdo;
   z-index: 5;

@@ -12,8 +12,6 @@ body{
 
 .board_message{
   position: relative;
-  width: 85vw; 
-  height: 10vh;
   left: 15vw;
   padding: 3vh 0; 
   background: rgba(255, 105, 180, 0.8);
@@ -26,11 +24,9 @@ body{
 .container{
   position: relative;
   display: inline-block;
-  width: 75vw; 
-  height: 120vh;
   top: 5vh;
   left: 15vw;
-  margin: 0 4vw;
+  margin: 0 3vw;
   z-index: 2;
   background: rgba(105, 165, 245, 0.9);
   border: 3px solid black;

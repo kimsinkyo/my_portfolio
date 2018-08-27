@@ -26,7 +26,7 @@ body {
 #anthem_detail{
   position: absolute;
   padding: 0;
-  margin: 0;
+  margin: -1vh 0;
   display: block;
   width: 85vw; 
   height: 25vh;

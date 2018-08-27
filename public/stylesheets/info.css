@@ -21,23 +21,23 @@ ul{
 #container{
   position: relative;
   display: inline-block;
-  width: 100%; 
+  width: 85vw; 
   height: 150%;
   left: 15vw;
   z-index: 2;
 }
 
 #container h2{
+  width: 85vw;
   padding-top: 5vh; 
-  margin: 0 15vw 0 25vw;
+  text-align: center;
 }
 
 .info_desc{
-  margin: 0 5vw 0 10vw;
+  margin: 0 5vw 0 8vw;
   width: 85vw;
   height: 100vh;
   font: 300 1.2rem 'Do Hyeon';
-  word-spacing: 1px;
   line-height: 7vh;
 }
 
@@ -79,5 +79,6 @@ ul{
   color: snow;
   width: 100vw;
   height: 150vh; 
+
   line-break: auto;
 }
