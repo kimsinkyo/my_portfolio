@@ -13,7 +13,8 @@ ul{
 }
 
 .info_desc li{
-  width: 85vw;
+  
+  width: 75vw;
   list-style-type: lower-greek;
   font-weight: 400;
 }
@@ -28,7 +29,7 @@ ul{
 }
 
 #container h2{
-  width: 85vw;
+  width: 70vw;
   padding-top: 5vh; 
   text-align: center;
 }
@@ -37,7 +38,7 @@ ul{
   margin: 0 5vw 0 8vw;
   width: 85vw;
   height: 100vh;
-  font: 300 1.2rem 'Do Hyeon';
+  font: 200 1rem 'Do Hyeon';
   line-height: 7vh;
 }
 
@@ -79,6 +80,5 @@ ul{
   color: snow;
   width: 100vw;
   height: 150vh; 
-
   line-break: auto;
 }

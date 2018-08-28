@@ -40,12 +40,12 @@ body{
   padding: 5vh 0;
   z-index: 3;
   border-radius: 30px;
-  height: 50vh;
+  height: 60vh;
 }
 
 .code_button{
   position: relative;
-  margin: 3vh 25vw;
+  margin: 2vh 25vw;
   width: 20vw;
   height: 5vh;
   background: hotpink;

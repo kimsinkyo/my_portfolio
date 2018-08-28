@@ -7,10 +7,10 @@
   #Colossus-u-skill{width: 50vw; height: 0vh;}
   iframe{width: 250px; height: 210px;}
   #container{width: 85vw; height: 100vh;}
-  #form_style{width: 70vw; height: 50vh;}
+  #form_style{width: 70vw; height: 53vh;}
   #example{width: 100vw; height: 15vh; font-size: 4px;}
   .container{width: 100vw; height: 100vh;}
-  .board_messege{width: 100%;  height: 4vh; }
+  .board_messege{width: 85vw;  height: 4vh; }
   #make_code_add{margin: 1vh 42vw;}
 }
 @media (min-width:366px) and (max-width:786px){
@@ -19,19 +19,19 @@
   img{height: 300px;}
   iframe{width: 350px; height: 250px;}
   #container{width: 85vw; height: 100vh;}
-  #form_style{width: 70vw; height: 50vh;}
+  #form_style{width: 70vw; height: 53vh;}
   #example{width: 85vw; height: 15vh; font-size: 12px}
-  .container{width: 85vw; height: 120vh;}
-  .board_messege{width: 75vw; height: 6vh;}
+  .container{width: 100vw; height: 120vh;}
+  .board_messege{width: 85vw; height: 6vh;}
   #make_code_add{margin: 1vh 32.5vw;}
 }
 @media (min-width:786px){
-  html{font-size:18px;}
-  body{font-size:18px;}
+  html{font-size:17px;}
+  body{font-size:17px;}
   img{height: 600px;}
   iframe{width: 510px; height: 315px;}
   #container{width: 85vw; height: 100vh;}
-  #form_style{width: 70vw; height: 50vh;}
+  #form_style{width: 70vw; height: 53vh;}
   #example{width: 85vw; height: 15vh; font-size: 20px}
   .container{width: 85vw; height: 120vh;}
   .board_messege{width: 75vw; height: 8vh;}
