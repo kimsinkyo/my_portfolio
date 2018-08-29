@@ -6,13 +6,13 @@ body{
   height: 100%;
   margin: 0;
   z-index: 1;
-  font: 200 1.5rem 'Do Hyeon';
+  font: 200 1rem 'Do Hyeon';
   word-spacing: 3px;
 }
 
 .board_message{
   position: relative;
-  left: 15vw;
+  left: 13vw;
   padding: 3vh 0; 
   background: rgba(255, 105, 180, 0.8);
   color: #fff;
@@ -24,9 +24,9 @@ body{
 .container{
   position: relative;
   display: inline-block;
-  top: 5vh;
-  left: 15vw;
-  margin: 0 3vw;
+  top: 2vh;
+  left: 13vw;
+  margin: 0;
   z-index: 2;
   background: rgba(105, 165, 245, 0.9);
   border: 3px solid black;

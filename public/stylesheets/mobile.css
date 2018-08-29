@@ -6,34 +6,37 @@
   img{height: 150px;}
   #Colossus-u-skill{width: 50vw; height: 0vh;}
   iframe{width: 250px; height: 210px;}
-  #container{width: 85vw; height: 100vh;}
+  #container{width: 85.8vw; height: 100vh;}
   #form_style{width: 70vw; height: 53vh;}
-  #example{width: 100vw; height: 15vh; font-size: 4px;}
+  #example{width: 100vw; height: 15vh; font-size: 5px;}
   .container{width: 100vw; height: 100vh;}
-  .board_messege{width: 85vw;  height: 4vh; }
+  .board_message{width: 100vw;  height: 4vh; }
   #make_code_add{margin: 1vh 42vw;}
+  .cube_face{height: 5vh;}
 }
 @media (min-width:366px) and (max-width:786px){
   html{font-size:11px;}
   body{font-size:11px;}
   img{height: 300px;}
   iframe{width: 350px; height: 250px;}
-  #container{width: 85vw; height: 100vh;}
+  #container{width: 85.8vw; height: 100vh;}
   #form_style{width: 70vw; height: 53vh;}
-  #example{width: 85vw; height: 15vh; font-size: 12px}
-  .container{width: 100vw; height: 120vh;}
-  .board_messege{width: 85vw; height: 6vh;}
-  #make_code_add{margin: 1vh 32.5vw;}
+  #example{width: 85.8vw; height: 15vh; font-size: 12px}
+  .container{width: 100vw; height: 85vh;}
+  .board_message{width: 100vw; height: 6vh;}
+  #make_code_add{margin: 1vh 42vw;}
+  .cube_face{height: 7vh;}
 }
-@media (min-width:786px){
+@media (min-width:787px){
   html{font-size:17px;}
   body{font-size:17px;}
   img{height: 600px;}
   iframe{width: 510px; height: 315px;}
-  #container{width: 85vw; height: 100vh;}
+  #container{width: 85.8vw; height: 100vh;}
   #form_style{width: 70vw; height: 53vh;}
-  #example{width: 85vw; height: 15vh; font-size: 20px}
-  .container{width: 85vw; height: 120vh;}
-  .board_messege{width: 75vw; height: 8vh;}
+  #example{width: 86.5vw; height: 15vh; font-size: 18px}
+  .container{width: 86.5vw; height: 80vh;}
+  .board_message{width: 87vw; height: 8vh;}
   #make_code_add{margin: 1vh 32.5vw;}
+  .cube_face{height: 9vh;}
 }
