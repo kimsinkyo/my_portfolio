@@ -1,8 +1,8 @@
 @charset 'utf-8';
 
-@media (max-width:365px){
-  html{font-size:8px;}
-  body{font-size:8px;}
+@media (max-width:360px){
+  html{font-size:6px;}
+  body{font-size:6px;}
   img{height: 150px;}
   #Colossus-u-skill{width: 50vw; height: 0vh;}
   iframe{width: 250px; height: 210px;}
@@ -14,9 +14,9 @@
   #make_code_add{margin: 1vh 42vw;}
   .cube_face{height: 5vh;}
 }
-@media (min-width:366px) and (max-width:786px){
-  html{font-size:11px;}
-  body{font-size:11px;}
+@media (min-width:361px) and (max-width:780px){
+  html{font-size:10px;}
+  body{font-size:10px;}
   img{height: 300px;}
   iframe{width: 350px; height: 250px;}
   #container{width: 85.8vw; height: 100vh;}
@@ -27,9 +27,9 @@
   #make_code_add{margin: 1vh 42vw;}
   .cube_face{height: 7vh;}
 }
-@media (min-width:787px){
-  html{font-size:17px;}
-  body{font-size:17px;}
+@media (min-width:780px){
+  html{font-size:16px;}
+  body{font-size:16px;}
   img{height: 600px;}
   iframe{width: 510px; height: 315px;}
   #container{width: 85.8vw; height: 100vh;}

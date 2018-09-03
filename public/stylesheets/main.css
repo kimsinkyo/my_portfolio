@@ -20,7 +20,7 @@ body {
   margin: 0;
   display: block;
   height: 75vh;
-  left: 15vw;
+  left: 13vw;
 }
 
 #anthem_detail{
@@ -28,15 +28,15 @@ body {
   padding: 0;
   margin: -1vh 0;
   display: block;
-  width: 85vw; 
+  width: 85.8vw; 
   height: 25vh;
   background-color: rgba(255, 255, 255, 0.75);
 }
 
 #anthem_pre{
   display: block;
-  margin: 5vh 3vw 0 5vw ;   
-  width: 85vw;
+  margin: 5vh 0;   
+  width: 85.8vw;
   height: 2vh;
   font-size: 1rem;
   align-items: center;
